@@ -1,0 +1,559 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #949494;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+ul a,
+li a {
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: inherit;
+}
+ul a:hover,
+li a:hover {
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.top-box .P {
+  border-left: 1px solid #fff;
+  margin-left: 100px;
+  height: 130px;
+}
+.top-box #header {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+}
+.top-box #header .header-fixied {
+  position: fixed;
+  top: 0;
+  display: flex;
+}
+.top-box #header .header-fixied #header_title {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.top-box #header .header-fixied #header_title .header_Portfolio img {
+  width: 200px;
+}
+.top-box #header .header-fixied .header_menu {
+  display: flex;
+  justify-content: flex-end;
+  width: 80vw;
+  color: #fff;
+}
+.top-box #header .header-fixied .header_menu .header_nav {
+  display: flex;
+  margin-top: 95px;
+  font-size: 20px;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+}
+.top-box #header .header-fixied .header_menu .header_nav .ul_list {
+  margin-right: 50px;
+}
+.top-box #header .header-fixied .header_menu .header_nav .ul_list2 {
+  margin-right: 50px;
+}
+.top-box #header .header-fixied .header_menu .header_nav .ul_list3 {
+  margin-right: 100px;
+}
+
+#sitemap {
+  border-top: 1px solid #fff;
+  display: flex;
+  color: #fff;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+}
+#sitemap .sitemap-box {
+  display: flex;
+  margin-top: 70px;
+}
+#sitemap .sitemap-box .works {
+  font-size: 50px;
+  margin-left: 100px;
+}
+#sitemap .sitemap-box .sitemap-content {
+  display: flex;
+  margin-top: 38px;
+  font-size: 18px;
+  margin-left: 55px;
+}
+#sitemap .sitemap-box .sitemap-content a {
+  text-decoration: none;
+  color: inherit;
+}
+#sitemap .sitemap-box .sitemap-content .content3 {
+  font-family: "Hiragino Sans", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  .top-box .P {
+    margin-left: 30px;
+    height: 50px;
+  }
+  .top-box #header .header-fixied #header_title {
+    margin-top: 20px;
+    margin-left: 32px;
+  }
+  .top-box #header .header-fixied #header_title .header_Portfolio img {
+    width: 60px;
+  }
+  .top-box #header .header-fixied .header_menu .header_nav {
+    margin-top: 35px;
+    font-size: 8px;
+    font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  }
+  .top-box #header .header-fixied .header_menu .header_nav ul,
+  .top-box #header .header-fixied .header_menu .header_nav li {
+    list-style-type: none;
+  }
+  .top-box #header .header-fixied .header_menu .header_nav ul a,
+  .top-box #header .header-fixied .header_menu .header_nav li a {
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: inherit;
+  }
+  .top-box #header .header-fixied .header_menu .header_nav .ul_list {
+    margin-right: 20px;
+  }
+  .top-box #header .header-fixied .header_menu .header_nav .ul_list2 {
+    margin-right: 20px;
+  }
+  .top-box #header .header-fixied .header_menu .header_nav .ul_list3 {
+    margin-right: 50px;
+  }
+  #sitemap {
+    font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  }
+  #sitemap .sitemap-box {
+    margin-top: 30px;
+  }
+  #sitemap .sitemap-box .works {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  #sitemap .sitemap-box .sitemap-content {
+    margin-top: 10px;
+    font-size: 8px;
+    margin-left: 20px;
+  }
+}
+.mockup-point {
+  display: flex;
+  padding: 0 100px;
+  margin-top: 50px;
+}
+.mockup-point .mockup {
+  text-align: center;
+}
+.mockup-point .mockup img {
+  width: 600px;
+}
+.mockup-point #point-content {
+  color: #fff;
+}
+.mockup-point #point-content .tool-clock {
+  /* 顔の異常な動き */
+  /* 不規則に動く鋭い針 */
+  /* 歪んだ顔 */
+  /* 顔の歪み */
+  /* 時計枠の影のエフェクト */
+  /* 時計全体を揺らすエフェクト */
+}
+.mockup-point #point-content .tool-clock .tool {
+  display: flex;
+  justify-content: center;
+}
+.mockup-point #point-content .tool-clock .tool .tool1 {
+  font-weight: 600;
+}
+.mockup-point #point-content .tool-clock .tool .tool3 {
+  font-weight: 600;
+}
+.mockup-point #point-content .tool-clock .unsettling-clock {
+  margin-top: 10px;
+  margin-left: 270px;
+  width: 100px;
+  /* 時計のサイズを小さく */
+  height: 50px;
+  /* 時計の高さも小さく */
+  animation: shake 2s infinite;
+  /* 時計全体が激しく揺れる */
+}
+.mockup-point #point-content .tool-clock .clock-face {
+  width: 100%;
+  height: 100%;
+}
+@keyframes eyeMove {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+}
+.mockup-point #point-content .tool-clock .eye-left,
+.mockup-point #point-content .tool-clock .eye-right {
+  animation: eyeMove 3s infinite ease-in-out;
+  fill: #4C8C8B;
+  /* 深海の海藻っぽい青緑 */
+}
+@keyframes rotateHour {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(60deg);
+  }
+  80% {
+    transform: rotate(120deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateMinute {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.mockup-point #point-content .tool-clock .hour-hand {
+  transform-origin: 75px 75px;
+  /* 時計サイズに合わせて変える */
+  animation: rotateHour 12s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
+  stroke: #006666;
+  /* 深海のような青緑 */
+}
+.mockup-point #point-content .tool-clock .minute-hand {
+  transform-origin: 75px 75px;
+  /* 時計サイズに合わせて変える */
+  animation: rotateMinute 60s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
+  stroke: #006666;
+  /* 深海のような青緑 */
+}
+.mockup-point #point-content .tool-clock .face {
+  animation: faceDistort 3s infinite alternate;
+  stroke: #4C8C8B;
+  /* 海藻のような色 */
+}
+@keyframes faceDistort {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(25deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(-25deg) scale(0.8);
+  }
+}
+.mockup-point #point-content .tool-clock .clock-face path {
+  filter: drop-shadow(0 0 10px #003D4D);
+  /* 深海の影 */
+}
+.mockup-point #point-content .tool-clock .clock-face circle {
+  filter: drop-shadow(0 0 10px #003D4D);
+  /* 深海の影 */
+}
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.mockup-point #point-content .main-point {
+  margin: 1em auto;
+  position: relative;
+  padding: 0.5em 0.1em;
+  border-top: solid 2px rgb(255, 255, 255);
+  border-bottom: solid 2px rgb(255, 255, 255);
+  text-align: center;
+  width: 460px;
+}
+.mockup-point #point-content .main-point::before,
+.mockup-point #point-content .main-point::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: calc(100% + 20px);
+  background-color: rgb(255, 255, 255);
+}
+.mockup-point #point-content .main-point::before {
+  left: 10px;
+}
+.mockup-point #point-content .main-point::after {
+  right: 10px;
+}
+.mockup-point #point-content .main-point p {
+  font-family: "Hiragino Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.mockup-point #point-content .point-text {
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 0 100px;
+  margin-left: 25px;
+}
+.mockup-point #point-content .point-text li {
+  list-style-type: disc;
+}
+.mockup-point #point-content .point-text .text1 {
+  margin-bottom: 15px;
+}
+.mockup-point #point-content .point-text .text2 {
+  margin-bottom: 15px;
+}
+.mockup-point #point-content .point-text .text3 {
+  margin-bottom: 15px;
+}
+
+.mainvisual {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 80px;
+  /* ページ読み込み時にアニメーションを開始 */
+}
+.mainvisual img {
+  width: 800px;
+}
+.mainvisual .fade-image {
+  opacity: 0;
+  /* 最初は透明 */
+  transform: translateY(20px);
+  /* 少し下に配置 */
+  transition: opacity 1s ease, transform 1s ease;
+  /* アニメーション設定 */
+}
+.mainvisual .fade-image.show {
+  opacity: 1;
+  /* 不透明に */
+  transform: translateY(0);
+  /* 元の位置に戻る */
+}
+
+@media screen and (max-width: 480px) {
+  .mockup-point {
+    padding: 0 30px;
+    margin-top: 30px;
+  }
+  .mockup-point .mockup img {
+    width: 180px;
+  }
+  .mockup-point #point-content {
+    margin-left: 0px;
+  }
+  .mockup-point #point-content .tool-clock .tool {
+    font-size: 5px;
+  }
+  .mockup-point #point-content .tool-clock .unsettling-clock {
+    margin-top: 5px;
+    margin-left: 0px;
+    height: 18px;
+    animation: shake 5s infinite;
+  }
+  .mockup-point #point-content .tool-clock .unsettling-clock .clock-face {
+    margin-left: 110px;
+    width: 20px;
+    height: 20px;
+  }
+  .mockup-point #point-content .main-point {
+    margin: 0px auto;
+    position: relative;
+    padding: 0.2em 0.1em;
+    border-top: solid 1px rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(255, 255, 255);
+    text-align: center;
+    width: 100px;
+  }
+  .mockup-point #point-content .main-point::before,
+  .mockup-point #point-content .main-point::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 1px;
+    height: calc(100% + 20px);
+    background-color: rgb(255, 255, 255);
+  }
+  .mockup-point #point-content .main-point p {
+    font-size: 6px;
+  }
+  .mockup-point #point-content .point-text {
+    margin-top: 15px;
+    margin-left: 0px;
+    font-size: 5px;
+    padding: 0 30px;
+  }
+  .mockup-point #point-content .point-text .text1 {
+    margin-bottom: 5px;
+  }
+  .mockup-point #point-content .point-text .text2 {
+    margin-bottom: 5px;
+  }
+  .mockup-point #point-content .point-text .text3 {
+    margin-bottom: 5px;
+  }
+  .mainvisual {
+    margin-top: 20px;
+  }
+  .mainvisual img {
+    width: 300px;
+  }
+}
+.Works .Works-title {
+  color: #fff;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.Works .swiper {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.Works .swiper .swiper-wrapper {
+  overflow: visible;
+  transition-timing-function: linear;
+  display: flex;
+}
+.Works .swiper .swiper-wrapper ul,
+.Works .swiper .swiper-wrapper li {
+  list-style-type: none;
+}
+.Works .swiper .swiper-wrapper ul a,
+.Works .swiper .swiper-wrapper li a {
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+.Works .swiper .swiper-wrapper ul a img:hover,
+.Works .swiper .swiper-wrapper li a img:hover {
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.Works .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Works .swiper .swiper-wrapper .swiper-slide .img-link img {
+  width: 400px;
+}
+.Works .swiper .swiper-wrapper .swiper-slide .img-link2 img {
+  width: 400px;
+  height: 260px;
+}
+.Works .swiper .swiper-wrapper .swiper-slide .text-content {
+  text-align: center;
+}
+.Works .swiper .swiper-wrapper .swiper-slide .text-content .title-text {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+.Works .swiper .swiper-wrapper .swiper-slide .text-content .title-text:hover {
+  color: yellow;
+  transform: translateX(10000000000px);
+  /* スライドを拡大 */
+  box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+.Works .swiper .swiper-wrapper .swiper-slide .text-content .text {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+  .Works .Works-title {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .Works .swiper {
+    margin-bottom: 20px;
+  }
+  .Works .swiper .swiper-wrapper ul,
+  .Works .swiper .swiper-wrapper li {
+    list-style-type: none;
+  }
+  .Works .swiper .swiper-wrapper ul a,
+  .Works .swiper .swiper-wrapper li a {
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .Works .swiper .swiper-wrapper ul a img:hover,
+  .Works .swiper .swiper-wrapper li a img:hover {
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .Works .swiper .swiper-wrapper .swiper-slide {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .Works .swiper .swiper-wrapper .swiper-slide .img-link img {
+    width: 100px;
+  }
+  .Works .swiper .swiper-wrapper .swiper-slide .img-link2 img {
+    width: 100px;
+    height: 67px;
+  }
+  .Works .swiper .swiper-wrapper .swiper-slide .text-content .title-text {
+    font-size: 10px;
+  }
+  .Works .swiper .swiper-wrapper .swiper-slide .text-content .text {
+    font-size: 8px;
+    color: #fff;
+    font-weight: 600;
+  }
+}/*# sourceMappingURL=marin.css.map */

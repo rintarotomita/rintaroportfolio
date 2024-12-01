@@ -1,0 +1,151 @@
+@use "../../layout/reset2" as *;
+
+.Works {
+
+    .Works-title {
+        color: #fff;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+        ;
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .swiper {
+        margin-bottom: 50px;
+        overflow: hidden;
+
+        .swiper-wrapper {
+            overflow: visible;
+            transition-timing-function: linear;
+            display: flex;
+
+            ul,
+            li {
+                list-style-type: none;
+
+                a {
+                    overflow: hidden;
+                    display: inline-block;
+                    text-decoration: none;
+                    color: inherit;
+
+                    img {
+                        &:hover {
+                            transition: all .3s ease 0s;
+                            cursor: pointer;
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+            }
+
+            .swiper-slide {
+                text-align: center;
+                margin-left: 50px;
+                margin-right: 50px;
+
+                .img-link {
+                    img {
+                        width: 400px;
+                    }
+                }
+
+                .img-link2 {
+                    img {
+                        width: 400px;
+                        height: 260px;
+                    }
+                }
+
+                .text-content {
+                    text-align: center;
+
+                    .title-text {
+                        font-size: 18px;
+                        transition: transform 0.3s ease;
+                        display: inline-block;
+                    }
+
+                    .title-text:hover {
+                        color: yellow;
+                        transform: translateX(10000000000px);
+                        /* スライドを拡大 */
+                        box-shadow: 0 10px 20px rgb(255, 255, 255);
+                    }
+
+                    .text {
+                        font-size: 25px;
+                        color: #fff;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Works {
+        .Works-title {
+            margin-top: 30px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .swiper {
+            margin-bottom: 20px;
+
+            .swiper-wrapper {
+
+                ul,
+                li {
+                    list-style-type: none;
+
+                    a {
+                        overflow: hidden;
+                        display: inline-block;
+                        text-decoration: none;
+                        color: inherit;
+
+                        img {
+                            &:hover {
+                                transition: all .3s ease 0s;
+                                cursor: pointer;
+                                transform: scale(1.2);
+                            }
+                        }
+                    }
+                }
+                .swiper-slide{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    .img-link{
+                        img{
+                            width: 100px;
+                        }
+                    }
+                    .img-link2 {
+                        img {
+                            width: 100px;
+                            height: 67px;
+                        }
+                    }
+                    .text-content{
+                        .title-text{
+                            font-size: 10px;
+                        }
+                        .text {
+                            font-size: 8px;
+                            color: #fff;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

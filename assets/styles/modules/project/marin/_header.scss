@@ -1,0 +1,165 @@
+@use "../../layout/variable4" as *;
+
+.top-box {
+    .P {
+        border-left: 1px solid #fff;
+        margin-left: 100px;
+        height: 130px;
+    }
+
+    #header {
+        display: flex;
+        position: absolute;
+        z-index: 1;
+
+        .header-fixied {
+            position: fixed;
+            top: 0;
+            display: flex;
+
+            #header_title {
+                margin-top: 40px;
+                margin-left: 100px;
+
+                .header_Portfolio {
+                    img {
+                        width: 200px;
+                    }
+                }
+            }
+
+            .header_menu {
+                display: flex;
+                justify-content: flex-end;
+                width: 80vw;
+                color: #fff;
+
+                .header_nav {
+                    display: flex;
+                    margin-top: 95px;
+                    font-size: 20px;
+                    font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+                    ;
+
+                    .ul_list {
+                        margin-right: 50px;
+                    }
+
+                    .ul_list2 {
+                        margin-right: 50px;
+                    }
+
+                    .ul_list3 {
+                        margin-right: 100px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+#sitemap {
+    border-top: 1px solid #fff;
+    display: flex;
+    color: #fff;
+    font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+    ;
+
+    .sitemap-box {
+        display: flex;
+        margin-top: 70px;
+
+        .works {
+            font-size: 50px;
+            margin-left: 100px;
+        }
+
+        .sitemap-content {
+            display: flex;
+            margin-top: 38px;
+            font-size: 18px;
+            margin-left: 55px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            .content3 {
+                font-family: "Hiragino Sans", sans-serif;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .top-box {
+        .P {
+            margin-left: 30px;
+            height: 50px;
+        }
+
+        #header {
+            .header-fixied {
+                #header_title {
+                    margin-top: 20px;
+                    margin-left: 32px;
+
+                    .header_Portfolio {
+                        img {
+                            width: 60px;
+                        }
+                    }
+                }
+
+                .header_menu {
+                    .header_nav {
+                        margin-top: 35px;
+                        font-size: 8px; //説明文とヘッダーメニューは8px//
+                        font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+                        ;
+
+                        ul,
+                        li {
+                            list-style-type: none;
+
+                            a {
+                                display: inline-block;
+                                transition: all .3s ease 0s;
+                                text-decoration: none;
+                                color: inherit;
+                            }
+                        }
+                        .ul_list{
+                            margin-right: 20px;
+                        }
+                        .ul_list2{
+                            margin-right: 20px;
+                        }
+                        .ul_list3{
+                            margin-right: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #sitemap{
+        font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
+        ;
+        .sitemap-box{
+            margin-top: 30px;
+            .works{
+                font-size: 20px;
+                margin-left: 30px;
+            }
+            .sitemap-content{
+                margin-top: 10px;
+                font-size: 8px;
+                margin-left: 20px;
+                
+            }
+        }
+    }
+}
