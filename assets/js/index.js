@@ -22,9 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener("scroll", function () {
     const image = document.querySelector('.fade-image');
-    const rect = image.getBoundingClientRect();
-    if (rect.top < window.innerHeight - 100) {  // 100px前に発動
-        image.classList.add('show');
+    if (image) {
+        const rect = image.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+            image.classList.add('show');
+        }
     }
 });
 
