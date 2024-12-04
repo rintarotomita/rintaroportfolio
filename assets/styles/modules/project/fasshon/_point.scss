@@ -241,23 +241,6 @@
     img {
         width: 800px;
     }
-
-    .fade-image {
-        opacity: 0;
-        /* 最初は透明 */
-        transform: translateY(20px);
-        /* 少し下に配置 */
-        transition: opacity 1s ease, transform 1s ease;
-        /* アニメーション設定 */
-    }
-
-    /* ページ読み込み時にアニメーションを開始 */
-    .fade-image.show {
-        opacity: 2;
-        /* 不透明に */
-        transform: translateY(0);
-        /* 元の位置に戻る */
-    }
 }
 
 @media screen and (max-width:480px) {
