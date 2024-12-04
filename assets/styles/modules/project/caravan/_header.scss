@@ -100,21 +100,21 @@
             height: 50px;
         }
 
-        #header {
-            .header-fixied {
-                #header_title {
+        #header2 {
+            .header-fixied2 {
+                #header_title2 {
                     margin-top: 20px;
                     margin-left: 32px;
 
-                    .header_Portfolio {
+                    .header_Portfolio2 {
                         img {
                             width: 60px;
                         }
                     }
                 }
 
-                .header_menu {
-                    .header_nav {
+                .header_menu2 {
+                    .header_nav2 {
                         margin-top: 35px;
                         font-size: 8px; //説明文とヘッダーメニューは8px//
                         font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
@@ -131,7 +131,7 @@
                                 color: inherit;
                             }
                         }
-                        .ul_list{
+                        .ul_list2-1{
                             margin-right: 20px;
                         }
                         .ul_list2{
@@ -158,6 +158,10 @@
                 margin-top: 10px;
                 font-size: 8px;
                 margin-left: 20px;
+                .content3{
+                    margin-top: 2px;
+                    font-size: 6px;
+                }
                 
             }
         }

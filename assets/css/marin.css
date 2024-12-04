@@ -31,42 +31,42 @@ li a:hover {
   margin-left: 100px;
   height: 130px;
 }
-.top-box #header {
+.top-box #header2 {
   display: flex;
   position: absolute;
   z-index: 1;
 }
-.top-box #header .header-fixied {
+.top-box #header2 .header-fixied2 {
   position: fixed;
   top: 0;
   display: flex;
 }
-.top-box #header .header-fixied #header_title {
+.top-box #header2 .header-fixied2 #header_title2 {
   margin-top: 40px;
   margin-left: 100px;
 }
-.top-box #header .header-fixied #header_title .header_Portfolio img {
+.top-box #header2 .header-fixied2 #header_title2 .header_Portfolio2 img {
   width: 200px;
 }
-.top-box #header .header-fixied .header_menu {
+.top-box #header2 .header-fixied2 .header_menu2 {
   display: flex;
   justify-content: flex-end;
   width: 80vw;
   color: #fff;
 }
-.top-box #header .header-fixied .header_menu .header_nav {
+.top-box #header2 .header-fixied2 .header_menu2 .header_nav2 {
   display: flex;
   margin-top: 95px;
   font-size: 20px;
   font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
 }
-.top-box #header .header-fixied .header_menu .header_nav .ul_list {
+.top-box #header2 .header-fixied2 .header_menu2 .header_nav2 .ul_list2-1 {
   margin-right: 50px;
 }
-.top-box #header .header-fixied .header_menu .header_nav .ul_list2 {
+.top-box #header2 .header-fixied2 .header_menu2 .header_nav2 .ul_list2 {
   margin-right: 50px;
 }
-.top-box #header .header-fixied .header_menu .header_nav .ul_list3 {
+.top-box #header2 .header-fixied2 .header_menu2 .header_nav2 .ul_list3 {
   margin-right: 100px;
 }
 
@@ -103,36 +103,36 @@ li a:hover {
     margin-left: 30px;
     height: 50px;
   }
-  .top-box #header .header-fixied #header_title {
+  .top-box #header2 .header-fixied2 #header_title2 {
     margin-top: 20px;
     margin-left: 32px;
   }
-  .top-box #header .header-fixied #header_title .header_Portfolio img {
+  .top-box #header2 .header-fixied2 #header_title2 .header_Portfolio2 img {
     width: 60px;
   }
-  .top-box #header .header-fixied .header_menu .header_nav {
+  .top-box #header2 .header-fixied2 .header_menu2 .header_nav2 {
     margin-top: 35px;
     font-size: 8px;
     font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
   }
-  .top-box #header .header-fixied .header_menu .header_nav ul,
-  .top-box #header .header-fixied .header_menu .header_nav li {
+  .top-box #header2 .header-fixied2 .header_menu2 .header_nav2 ul,
+  .top-box #header2 .header-fixied2 .header_menu2 .header_nav2 li {
     list-style-type: none;
   }
-  .top-box #header .header-fixied .header_menu .header_nav ul a,
-  .top-box #header .header-fixied .header_menu .header_nav li a {
+  .top-box #header2 .header-fixied2 .header_menu2 .header_nav2 ul a,
+  .top-box #header2 .header-fixied2 .header_menu2 .header_nav2 li a {
     display: inline-block;
     transition: all 0.3s ease 0s;
     text-decoration: none;
     color: inherit;
   }
-  .top-box #header .header-fixied .header_menu .header_nav .ul_list {
+  .top-box #header2 .header-fixied2 .header_menu2 .header_nav2 .ul_list2-1 {
     margin-right: 20px;
   }
-  .top-box #header .header-fixied .header_menu .header_nav .ul_list2 {
+  .top-box #header2 .header-fixied2 .header_menu2 .header_nav2 .ul_list2 {
     margin-right: 20px;
   }
-  .top-box #header .header-fixied .header_menu .header_nav .ul_list3 {
+  .top-box #header2 .header-fixied2 .header_menu2 .header_nav2 .ul_list3 {
     margin-right: 50px;
   }
   #sitemap {
@@ -355,24 +355,9 @@ li a:hover {
   overflow: hidden;
   text-align: center;
   margin-top: 80px;
-  /* ページ読み込み時にアニメーションを開始 */
 }
 .mainvisual img {
   width: 800px;
-}
-.mainvisual .fade-image {
-  opacity: 0;
-  /* 最初は透明 */
-  transform: translateY(20px);
-  /* 少し下に配置 */
-  transition: opacity 1s ease, transform 1s ease;
-  /* アニメーション設定 */
-}
-.mainvisual .fade-image.show {
-  opacity: 1;
-  /* 不透明に */
-  transform: translateY(0);
-  /* 元の位置に戻る */
 }
 
 .Works .Works-title {
