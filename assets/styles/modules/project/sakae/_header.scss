@@ -7,41 +7,41 @@
         height: 130px;
     }
 
-    #header {
+    #header2 {
         display: flex;
         position: absolute;
         z-index: 1;
 
-        .header-fixied {
+        .header-fixied2 {
             position: fixed;
             top: 0;
             display: flex;
 
-            #header_title {
+            #header_title2 {
                 margin-top: 40px;
                 margin-left: 100px;
 
-                .header_Portfolio {
+                .header_Portfolio2 {
                     img {
                         width: 200px;
                     }
                 }
             }
 
-            .header_menu {
+            .header_menu2 {
                 display: flex;
                 justify-content: flex-end;
                 width: 80vw;
                 color: #fff;
 
-                .header_nav {
+                .header_nav2 {
                     display: flex;
                     margin-top: 95px;
                     font-size: 20px;
                     font-family: '游明朝', 'Yu Mincho', YuMincho, 'Hiragino Mincho Pro', serif;
                     ;
 
-                    .ul_list {
+                    .ul_list2-1 {
                         margin-right: 50px;
                     }
 

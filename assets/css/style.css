@@ -16,13 +16,15 @@ body {
 }
 .top-box #header {
   display: flex;
-  position: absolute;
-  z-index: 1;
+  position: fixed; /* ここでfixedに変更 */
+  top: 0; /* ページの上に固定 */
+  left: 0; /* 左端に固定 */
+  width: 100%; /* 幅を全体に広げる */
+  z-index: 1000; /* 他の要素に重ならないようにz-indexを設定 */
 }
 .top-box #header .header-fixied {
-  position: fixed;
-  top: 0;
   display: flex;
+  width: 100%; /* 幅を100%にして固定 */
 }
 .top-box #header .header-fixied #header_title {
   margin-top: 70px;
@@ -81,9 +83,12 @@ body {
   .top-box #header .header-fixied #header_title .header_Portfolio img {
     width: 60px;
   }
+  .top-box #header .header-fixied .header_menu {
+    width: 65vw;
+  }
   .top-box #header .header-fixied .header_menu .header_nav {
     margin-top: 35px;
-    font-size: 8px;
+    font-size: 7px;
     font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
   }
   .top-box #header .header-fixied .header_menu .header_nav ul,
